@@ -1,0 +1,110 @@
+{% include 'E/base.html' %} {% block 'content' %}
+
+<br>
+<!-- contact us page -->
+
+
+
+<div class="container shadow-md h-100">
+    <div class="row">
+        <div class="col-sm-6 yellow">
+            <div class="card">
+                <div class="card-body">
+                    <h2>FASTEST GROWING HUMAN RESOURCE FIRM</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6 green">
+            <div class="card">
+                <div class="card-body">
+                    <div class="white-box bg-light">
+                        <h1 class="text-upper text-center">ElliottCrew Consultancy</h1>
+                        <p class="text-dark text-center opacity-75 border-3">Human Resource Consulting in Kolkata</p>
+                    </div>
+                    <br>
+                    <br>
+                    <p>ElliottCrew is regarded as a leading Placement Consultant for small or medium enterprises and corporate companies.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<br>
+<br>
+
+
+
+<div class="container">
+    <div class="row shadow-lg">
+        <div class="col-sm-6 col-md-6 h-100">
+
+            <div>
+                <h5 class="alert alert-dark text-center">Contact Us</h5>
+                <br>
+                <address> 79, Rajdanga Main Rd
+                    Nabapally, Bosepukur Purbapara,<br>
+                    Rajdanga, East Kolkata Twp,<br>
+                    Kolkata, West Bengal 700107</address>
+
+
+                <a href="https://elliottcrew-consultancy.business.site/?utm_source=gmb&utm_medium=referral" target="_blank"><i class="fab fa-firefox"></i>Website:</a> &nbsp;
+                <a href="https://www.facebook.com/pg/elliottcrew.org/reviews/?ref=page_internal" target="_blank"><i
+                        class="fab fa-facebook-square"></i>Facebook:</a>
+
+            </div>
+            <br>
+
+
+
+
+
+
+
+
+
+
+
+            <form action="" method="POST">
+                {% csrf_token %} {{form.as_p}}
+                <button type="submit" class="btn btn-primary">SUbmit</button>
+                <button type="reset" class="btn btn-warning">Cancel</button>
+            </form>
+        </div>
+
+
+
+
+        <div class="col-sm-6 col-md-6 col-lg-6 h-100">
+            <h5 class="alert alert-dark text-center">LOCATION </h5>
+            <div class="map">
+
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.7583104558107!2d88.3861643139452!3d22.513249440822463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02714c5e40eb89%3A0x4ecf4a95579da78b!2s79%2C%20Rajdanga%20Main%20Rd%2C%20Nabapally%2C%20Bosepukur%20Purbapara%2C%20Rajdanga%2C%20East%20Kolkata%20Twp%2C%20Kolkata%2C%20West%20Bengal%20700107!5e0!3m2!1sen!2sin!4v1645882124923!5m2!1sen!2sin"
+                    width="550" height="670" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+<br> {% endblock %}

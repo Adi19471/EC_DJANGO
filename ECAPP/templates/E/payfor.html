@@ -1,0 +1,158 @@
+{% include 'E/base.html' %} {% block 'content' %}
+
+
+
+
+
+<!-- pay for all information 2 page -->
+<main>
+    <div class="payfor" id="payfor">
+        <div class="conainer shadow-md h-100">
+            <h2 class="text-center text-info">CANDIDATE GETTING CHANGES IN DIFFRENT <br> PAYROLL
+            </h2>
+            <small class="payrol text-primary">(IN PAYROLL)</small>
+
+            <ul>
+                <li class="text-warning">.STAFFING</li>
+                <li class="text-success">.COMPANY PAYROLL</li>
+                <li class="text-info">.EMPLOYEEPAYROLL</li>
+
+            </ul>
+            <div class="container shadow-md">
+                <div class="row h-100">
+                    <div class="col-sm-4">
+                        <h4>Payroll offers </h4>
+                        <p class="text-sm-left">ElliottCrew offers different kinds of payroll processes like Company Payroll, Employee Payroll and Staffing. The mentioned graph shows your chances of getting candidates. Payroll processes affect the flexibility of time in order
+                            to find talent for your organization. This graph will help to understand which process is easier to find proper for your esteemed organization.
+                        </p>
+
+
+
+
+                        <br>
+                    </div>
+
+
+
+
+                    <div class="col-sm-4">
+
+
+
+                        <div id="myPlot" style="width:100%;max-width:500px"></div>
+
+                        <script>
+                            window.onload = function() {
+
+                                var chart = new CanvasJS.Chart("chartContainer", {
+                                    animationEnabled: true,
+
+                                    title: {
+                                        text: "EliteCrew 500 Companies by Country"
+                                    },
+                                    axisX: {
+                                        interval: 1
+                                    },
+                                    axisY2: {
+                                        interlacedColor: "rgba(1,77,101,.2)",
+                                        gridColor: "rgba(1,77,101,.1)",
+                                        title: "Number of Companies"
+                                    },
+                                    data: [{
+                                        type: "bar",
+                                        name: "companies",
+                                        axisYType: "secondary",
+                                        color: "#014D65",
+                                        dataPoints: [{
+                                            y: 3,
+                                            label: "Sweden"
+                                        }, {
+                                            y: 7,
+                                            label: "Taiwan"
+                                        }, {
+                                            y: 5,
+                                            label: "Russia"
+                                        }, {
+                                            y: 9,
+                                            label: "Spain"
+                                        }, {
+                                            y: 7,
+                                            label: "Brazil"
+                                        }, {
+                                            y: 7,
+                                            label: "India"
+                                        }, {
+                                            y: 9,
+                                            label: "Italy"
+                                        }, {
+                                            y: 8,
+                                            label: "Australia"
+                                        }, {
+                                            y: 11,
+                                            label: "Canada"
+                                        }, {
+                                            y: 15,
+                                            label: "South Korea"
+                                        }, {
+                                            y: 12,
+                                            label: "Netherlands"
+                                        }, {
+                                            y: 15,
+                                            label: "Switzerland"
+                                        }, {
+                                            y: 25,
+                                            label: "Britain"
+                                        }, {
+                                            y: 28,
+                                            label: "Germany"
+                                        }, {
+                                            y: 29,
+                                            label: "France"
+                                        }, {
+                                            y: 52,
+                                            label: "Japan"
+                                        }, {
+                                            y: 103,
+                                            label: "China"
+                                        }, {
+                                            y: 134,
+                                            label: "US"
+                                        }]
+                                    }]
+                                });
+                                chart.render();
+
+                            }
+                        </script>
+
+                        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <br>
+                        <p style="color: darkblue;font-size: 20px;font-family: cursive;">WE WILL BE DELIGHTED TO SERVE YOU BEST ACCORDING TO YOUR NEEDS. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</div>
+<!-- payfor endpart -->
+
+
+{% endblock %}
+
+
+
+</body>
+
+</html>

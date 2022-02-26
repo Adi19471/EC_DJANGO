@@ -1,0 +1,126 @@
+body {
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+  vertical-align: middle; */
+}
+
+.carousel-inner {
+    height: 470px;
+}
+
+
+/* all p size and colors set */
+
+p {
+    color: #0a460a;
+    font-size: 15px;
+}
+
+.top-left-sde {
+    margin-left: 1080px;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.top-side {
+    font-size: 21px;
+    margin-left: 2px;
+    background-color: rgb(8, 19, 44);
+}
+
+
+/* navbar link */
+
+.navbar {
+    position: -webkit-sticky;
+}
+
+.nav-link {
+    margin-right: -20px;
+    margin-top: -10px;
+}
+
+
+/* about us */
+
+.about {
+    font-size: 25px;
+}
+
+.abishek {
+    font-size: 17px;
+    color: white;
+}
+
+
+/* contact page */
+
+.yellow {
+    background-color: rgb(107, 107, 67);
+}
+
+.green {
+    background-color: green;
+    font-weight: 900;
+    border: 15px solid rgb(107, 107, 67);
+    border-color: rgb(101, 101, 122);
+    border-left: rgb(155, 132, 117);
+    box-sizing: border-box;
+}
+
+.greens {
+    color: #032703;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.white-box {
+    border: 1px ridge black;
+    top: 360px;
+}
+
+.fab {
+    font-size: 30px;
+    color: gray;
+}
+
+
+/* payoll */
+
+.payrol {
+    text-align: center;
+    margin-left: 570px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+li {
+    margin: 0px 20px;
+}
+
+
+/* grpah matter */
+
+
+/* index page */
+
+.foot {
+    text-decoration: none;
+    text-overflow: 10px;
+}
+
+
+/* bar graph */
+
+
+/* progress  */
